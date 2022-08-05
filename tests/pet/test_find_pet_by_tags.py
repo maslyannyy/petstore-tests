@@ -30,7 +30,7 @@ def test_success(new_pet):
 
 
 @allure.feature('PET')
-@allure.story('GET /pet/findByStatus')
+@allure.story('GET /pet/findByTags')
 @allure.title('Invalid status')
 def test_invalid_id():
     test_tag = 'инвалид-тег'
